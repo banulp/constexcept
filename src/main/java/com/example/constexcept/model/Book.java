@@ -1,55 +1,56 @@
 package com.example.constexcept.model;
 
 public class Book {
-    private Integer id;
-    private String title;
-    private String author;
-    private String story;
-    private Integer star;
+    private Integer bookId;
+    private String bookTitle;
+    private String bookAuthor;
+    private String bookStory;
+    private Integer bookStar;
 
     public Book() {
     }
-    public Book(String award) {
-        this.title = award;
+
+    public Book(String bookTitle) {
+        this.bookTitle = bookTitle;
     }
 
-    public Integer getId() {
-        return id;
+    public Integer getBookId() {
+        return bookId;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setBookId(Integer bookId) {
+        this.bookId = bookId;
     }
 
-    public String getTitle() {
-        return title;
+    public String getBookTitle() {
+        return bookTitle;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setBookTitle(String bookTitle) {
+        this.bookTitle = bookTitle;
     }
 
-    public String getAuthor() {
-        return author;
+    public String getBookAuthor() {
+        return bookAuthor;
     }
 
-    public void setAuthor(String author) {
-        this.author = author;
+    public void setBookAuthor(String bookAuthor) {
+        this.bookAuthor = bookAuthor;
     }
 
-    public String getStory() {
-        return story;
+    public String getBookStory() {
+        return bookStory;
     }
 
-    public void setStory(String story) {
-        this.story = story;
+    public void setBookStory(String bookStory) {
+        this.bookStory = bookStory;
     }
 
-    public Integer getStar() {
-        return star;
+    public Integer getBookStar() {
+        return bookStar;
     }
 
-    public void setStar(Integer star) {
-        this.star = star;
+    public void setBookStar(Integer bookStar) {
+        this.bookStar = bookStar;
     }
 }
